@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>My Personal Page</title>
+</head>
+
+<body>
+    <div id="personal-info">
+        <h1>Naga Srini Alapati</h1>
+        <img src="IMG_9512.jpg" alt="Your Image" style="max-width: 300px; max-height: 300px;">
+        <p>
+            I'm a web developer passionate about creating beautiful and functional websites.
+        </p>
+        <p>
+            Contact me:
+        </p>
+        <ul>
+            <li>Phone: +1 (551) 260-8719</li>
+            <li>Email: Na668@njit.edu</li>
+            <li>
+                GitHub: <a href="https://github.com/srini0811" target="_blank">https://github.com/srini0811</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="resume">
+        <h2>Resume</h2>
+        
+        <!-- Education Section -->
+        <h1>Education</h1>
+        <table>
+            <!-- Education Section Content-->
+            <p>Data Mining</p>
+            <p>MBA Human Resource</p>
+            <p>BBA Human Resource</p>
+        </table>
+        
+        <!-- Experience Section -->
+        <h1>Experience</h1>
+        <table>
+            <!-- Experience Table Content -->
+            <p>HR Intern - SRM University</p>
+            <p>Business Consultant Intern - Agile Capital Services</p>
+        </table>
+        
+        <!-- Skills Section -->
+        <h1>Skills</h1>
+        <p>
+            Data visualization, Python, html, Java.
+        </p>
+    </div>
+
+    <!-- Contact Form Section -->
+    <div id="contact-form">
+    <h2>Contact Form</h2>
+    <form id="contactForm">
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+        <p id="subjectError" class="error-message"></p>
+
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" required>
+        <p id="firstNameError" class="error-message"></p>
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required>
+        <p id="lastNameError" class="error-message"></p>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <p id="emailError" class="error-message"></p>
+
+        <label for="phone">Phone number:</label>
+        <input type="tel" id="phone" name="phone">
+        <p id="phoneError" class="error-message"></p>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <p id="messageError" class="error-message"></p>
+
+        <button type="button" id="submitForm">Submit</button>
+    </form>
+    </div>
+
+    <button id="showInfoButton">Show Info</button>
+    <button id="hideInfoButton">Hide Info</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
